@@ -1,0 +1,50 @@
+[
+  {
+    "variant": "Variant_A_NoAtt_Dice",
+    "use_attention": false,
+    "loss": "Dice Loss",
+    "mean_f1": 0.9585060123702007,
+    "mean_prec": 0.9617768851576034,
+    "mean_rec": 0.9615563874777673,
+    "agg_iou": 0.9359928964983167,
+    "threshold": 0.5999999999999999,
+    "phase1_epochs": 23,
+    "phase2_epochs": 16
+  },
+  {
+    "variant": "Variant_B_NoAtt_FocalTversky",
+    "use_attention": false,
+    "loss": "Focal Tversky",
+    "mean_f1": 0.9564782223521103,
+    "mean_prec": 0.9509104611718168,
+    "mean_rec": 0.9691940623540022,
+    "agg_iou": 0.9319601130276239,
+    "threshold": 0.7499999999999999,
+    "phase1_epochs": 16,
+    "phase2_epochs": 27
+  },
+  {
+    "variant": "Variant_C_Att_Dice",
+    "use_attention": true,
+    "loss": "Dice Loss",
+    "mean_f1": 0.958462745330666,
+    "mean_prec": 0.960176771014523,
+    "mean_rec": 0.9651325392413742,
+    "agg_iou": 0.936229351627422,
+    "threshold": 0.3,
+    "phase1_epochs": 42,
+    "phase2_epochs": 17
+  },
+  {
+    "variant": "Variant_D_Att_FocalTversky",
+    "use_attention": true,
+    "loss": "Focal Tversky",
+    "mean_f1": 0.9569394457420926,
+    "mean_prec": 0.9530099010336502,
+    "mean_rec": 0.9677805351721462,
+    "agg_iou": 0.932507700132948,
+    "threshold": 0.7499999999999999,
+    "phase1_epochs": 20,
+    "phase2_epochs": 20
+  }
+]

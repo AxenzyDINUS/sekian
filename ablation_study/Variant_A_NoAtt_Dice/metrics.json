@@ -1,0 +1,12 @@
+{
+  "variant": "Variant_A_NoAtt_Dice",
+  "use_attention": false,
+  "loss": "Dice Loss",
+  "mean_f1": 0.9585060123702007,
+  "mean_prec": 0.9617768851576034,
+  "mean_rec": 0.9615563874777673,
+  "agg_iou": 0.9359928964983167,
+  "threshold": 0.5999999999999999,
+  "phase1_epochs": 23,
+  "phase2_epochs": 16
+}
