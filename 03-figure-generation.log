@@ -1,0 +1,121 @@
+7.4s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.4s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.4s 3 0.00s - to python to disable frozen modules.
+7.4s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.0s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.0s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.0s 7 0.00s - to python to disable frozen modules.
+8.0s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+12.4s 9 2026-06-12 16:39:28.734532: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+12.4s 10 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+12.4s 11 E0000 00:00:1781282368.981970      23 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+12.4s 12 E0000 00:00:1781282369.048049      23 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+12.4s 13 W0000 00:00:1781282369.598399      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+12.4s 14 W0000 00:00:1781282369.598441      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+12.4s 15 W0000 00:00:1781282369.598443      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+12.4s 16 W0000 00:00:1781282369.598446      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+12.6s 17 2026-06-12 16:39:28.734532: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+12.6s 18 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+12.6s 19 E0000 00:00:1781282368.981970      23 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+12.6s 20 E0000 00:00:1781282369.048049      23 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+12.6s 21 W0000 00:00:1781282369.598399      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+12.6s 22 W0000 00:00:1781282369.598441      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+12.6s 23 W0000 00:00:1781282369.598443      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+12.6s 24 W0000 00:00:1781282369.598446      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+12.6s 25 
+12.6s 26 2026-06-12 16:39:28.734532: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+12.6s 27 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+12.6s 28 E0000 00:00:1781282368.981970      23 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+12.6s 29 E0000 00:00:1781282369.048049      23 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+12.6s 30 W0000 00:00:1781282369.598399      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+12.6s 31 W0000 00:00:1781282369.598441      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+12.6s 32 W0000 00:00:1781282369.598443      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+12.6s 33 W0000 00:00:1781282369.598446      23 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+26.2s 34 === Path Configuration ===
+26.2s 35 Ablation Study : /kaggle/input/datasets/axenzy/02-ablation-study-final-results/
+26.2s 36 Multi-Seed     : /kaggle/input/datasets/axenzy/multiseed-final-results/
+26.2s 37 Output Folder  : /kaggle/working/figures
+26.2s 38 Cek Ablation Study:
+26.2s 39 ['ablation_study']
+26.2s 40 
+26.2s 41 Cek Multi-Seed:
+26.2s 42 ['multiseed_clean']
+27.9s 43 I0000 00:00:1781282385.179032      23 gpu_device.cc:2019] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13757 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5
+27.9s 44 I0000 00:00:1781282385.185129      23 gpu_device.cc:2019] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 13757 MB memory:  -> device: 1, name: Tesla T4, pci bus id: 0000:00:05.0, compute capability: 7.5
+28.0s 45 Total validation images: 63
+28.0s 46 I0000 00:00:1781282385.179032      23 gpu_device.cc:2019] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13757 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5
+28.0s 47 I0000 00:00:1781282385.185129      23 gpu_device.cc:2019] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 13757 MB memory:  -> device: 1, name: Tesla T4, pci bus id: 0000:00:05.0, compute capability: 7.5
+28.0s 48 
+28.0s 49 I0000 00:00:1781282385.179032      23 gpu_device.cc:2019] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13757 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5
+28.0s 50 I0000 00:00:1781282385.185129      23 gpu_device.cc:2019] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 13757 MB memory:  -> device: 1, name: Tesla T4, pci bus id: 0000:00:05.0, compute capability: 7.5
+33.2s 51 Model seed_42 dimuat | threshold=0.7499999999999999 | F1=95.72% IoU=93.47%
+33.9s 52 ✅ Loaded: Variant_A_NoAtt_Dice
+33.9s 53 ✅ Loaded: Variant_B_NoAtt_FocalTversky
+33.9s 54 ✅ Loaded: Variant_C_Att_Dice
+33.9s 55 ✅ Loaded: Variant_D_Att_FocalTversky
+33.9s 56 
+33.9s 57 === Data yang berhasil di-fetch ===
+33.9s 58 Variant  F1-Score  Precision   Recall      IoU  Threshold
+33.9s 59 A: NoAtt + Dice Loss  0.958506   0.961777 0.961556 0.935993       0.60
+33.9s 60 B: NoAtt + Focal Tversky Loss  0.956478   0.950910 0.969194 0.931960       0.75
+33.9s 61 C: Att + Dice Loss  0.958463   0.960177 0.965133 0.936229       0.30
+33.9s 62 D: Att + Focal Tversky Loss  0.956939   0.953010 0.967781 0.932508       0.75
+34.9s 63 
+34.9s 64 ✅ Chart revisi berhasil disimpan: /kaggle/working/figures/charts/01_ablation_comparison_revised.png
+35.1s 65 seed  F1-Score  Precision    Recall       IoU
+35.1s 66 seed_42 95.722838  94.938286 97.236315 93.472797
+35.1s 67 seed_123 95.970475  95.131996 97.400534 93.735330
+35.1s 68 seed_2024 96.043239  96.007218 96.638726 93.787588
+35.6s 69 Saved: /kaggle/working/figures/charts/02_multiseed_errorbar.png
+35.8s 70 Using model from: seed_42
+35.8s 71 Best threshold   : 0.750
+35.8s 72 F1 / IoU         : 0.9572 / 0.9347
+38.3s 73 ✅ Model loaded successfully!
+40.6s 74 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+40.6s 75 I0000 00:00:1781282397.889613      67 service.cc:152] XLA service 0x7fbce8003240 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+40.6s 76 I0000 00:00:1781282397.889666      67 service.cc:160]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+40.6s 77 I0000 00:00:1781282397.889673      67 service.cc:160]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+40.8s 78 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+40.8s 79 I0000 00:00:1781282397.889613      67 service.cc:152] XLA service 0x7fbce8003240 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+40.8s 80 I0000 00:00:1781282397.889666      67 service.cc:160]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+40.8s 81 I0000 00:00:1781282397.889673      67 service.cc:160]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+40.8s 82 
+40.8s 83 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+40.8s 84 I0000 00:00:1781282397.889613      67 service.cc:152] XLA service 0x7fbce8003240 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+40.8s 85 I0000 00:00:1781282397.889666      67 service.cc:160]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+40.8s 86 I0000 00:00:1781282397.889673      67 service.cc:160]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+41.6s 87 I0000 00:00:1781282398.893211      67 cuda_dnn.cc:529] Loaded cuDNN version 91002
+41.8s 88 I0000 00:00:1781282398.893211      67 cuda_dnn.cc:529] Loaded cuDNN version 91002
+41.8s 89 
+41.8s 90 I0000 00:00:1781282398.893211      67 cuda_dnn.cc:529] Loaded cuDNN version 91002
+47.6s 91 I0000 00:00:1781282404.860203      67 device_compiler.h:188] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+47.8s 92 I0000 00:00:1781282404.860203      67 device_compiler.h:188] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+47.8s 93 
+47.8s 94 I0000 00:00:1781282404.860203      67 device_compiler.h:188] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+49.0s 95 Saved: qual_008_seed_42.png
+50.1s 96 Saved: qual_015_seed_42.png
+51.6s 97 Saved: qual_027_seed_42.png
+52.9s 98 Saved: qual_041_seed_42.png
+54.2s 99 Saved: qual_052_seed_42.png
+55.2s 100 Saved: qual_060_seed_42.png
+55.2s 101 
+55.2s 102 ✅ Semua qualitative figures tersimpan di: /kaggle/working/figures/qualitative
+55.2s 103 Silakan buka folder tersebut dan pilih 3-4 contoh terbaik untuk Figure jurnal kamu.
+66.3s 104 Saved: /kaggle/working/figures/charts/03_qualitative_best_okay_worst.png | dipilih: {'Terbaik': 15, 'Sedang': 32, 'Terburuk': 9}
+66.4s 105 Input shape : (None, 384, 384, 3)
+66.4s 106 Output shape: (None, 384, 384, 1)
+66.4s 107 Total params: 33,062,389
+66.4s 108 Pakai UpSampling2D?  True
+66.4s 109 Pakai Conv2DTranspose? False
+71.9s 110 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+71.9s 111 cells[i][c] = re.sub('\\\\\|', '|', cell)
+72.1s 112 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+72.1s 113 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+72.7s 114 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+73.1s 115 [NbConvertApp] Writing 7233161 bytes to __notebook__.ipynb
+75.5s 116 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+76.4s 117 [NbConvertApp] Support files will be in __results___files/
+76.4s 118 [NbConvertApp] Making directory __results___files
+76.4s 119 [NbConvertApp] Making directory __results___files
+76.4s 120 [NbConvertApp] Making directory __results___files
+76.4s 121 [NbConvertApp] Writing 387408 bytes to __results__.html
